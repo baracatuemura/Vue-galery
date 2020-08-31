@@ -4,6 +4,7 @@
 Ele apenas é elegível pro portal ZAP:
 - Quando for aluguel e no mínimo o valor for de R$ 3.500,00.
 - Quando for venda e no mínimo o valor for de R$ 600.000,00.
+
 Ele apenas é elegível pro portal Viva Real:
 - Quando for aluguel e no máximo o valor for de R$ 4.000,00.
 - Quando for venda e no máximo o valor for de R$ 700.000,00.
@@ -55,10 +56,10 @@ Pacurei criar links diretos para todas as páginas inclusive as páginas de deta
 screenshot
 ------------
 ### Home
-![alt text](https://raw.githubusercontent.com/baracatuemura/testeZap/master/_info/1.png)
+testeZap/master/_info/1.png
 
 ### Lista
-![alt text](https://raw.githubusercontent.com/baracatuemura/testeZap/master/_info/2.png)
+testeZap/master/_info/2.png
 
 ### Pagina de Detalhe 
-![alt text](https://raw.githubusercontent.com/baracatuemura/testeZap/master/_info/3.png)
+testeZap/master/_info/3.png
