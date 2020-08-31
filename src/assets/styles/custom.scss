@@ -1,0 +1,137 @@
+// Override / set color variables
+
+@import "variable";
+
+a {
+	color: $gray-800;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #bbb;
+	text-decoration: none;
+}
+
+.vivareal {
+    background-color: #2890CD;
+}
+
+.navbar-brand img {
+	max-width: 180px;
+}
+
+.modal-title {
+    width: 100%;
+    display: block;
+}
+
+.slick-slide img {
+    display: block;
+    width: 100%;
+}
+
+.box_imgs img {
+    width:  100%;
+    height: 200px;
+    float: left;
+    object-fit: cover;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #c8d419;
+}
+
+.slick-dots {
+    position: relative;
+    bottom: 0;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.slick-prev {
+    left: 10px;
+    z-index: 10;
+}
+
+.slick-next {
+    right: 10px;
+    z-index: 10;
+}
+
+
+/* common */
+.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.Venda.ribbon::before,
+.Venda.ribbon::after {
+    content: '';
+  border-color: #9ba30e;
+}
+
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: 1;
+  content: '';
+  display: block;
+  border: 5px solid #2980b9;
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 147px;
+  padding: 15px 0;
+  background-color: #3498db;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  color: #fff;
+  font: 700 13px/1 'Lato', sans-serif;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 3;
+}
+
+.Venda.ribbon span {
+background-color: #c8d419;
+}
+
+.price {
+    font-size: 24px;
+    span{
+        font-size: 14px;
+    }
+}
+
+
+
+
+/* top right*/
+.ribbon-top-right {
+  top: -10px;
+  right: -10px;
+}
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon-top-right::before {
+  top: 0;
+  left: 47px;
+}
+.ribbon-top-right::after {
+  bottom: 47px;
+  right: 0;
+}
+.ribbon-top-right span {
+    left: 40px;
+    top: 15px;
+  transform: rotate(45deg);
+}
